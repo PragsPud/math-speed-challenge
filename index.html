@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Speed Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>⚡ Math Speed Challenge</h1>
+        
+        <div class="controls">
+            <button id="startBtn" class="btn start-btn">Start Game</button>
+            <button id="stopBtn" class="btn stop-btn" disabled>Stop Game</button>
+        </div>
+
+        <div class="info-section">
+            <div class="score-display">Score: <span id="score">0</span></div>
+            <div class="time-display">Time: <span id="timer">0:00</span></div>
+        </div>
+        
+        <div class="question-section">
+            <div class="question" id="question">Press Start to begin!</div>
+        </div>
+        
+        <div class="input-section">
+            <input type="number" id="answer" placeholder="Enter answer" disabled>
+            <button id="submit" class="btn submit-btn" disabled>Submit</button>
+        </div>
+        
+        <div class="feedback" id="feedback"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+<footer>
+  <p>Made by PragsPud</p>
+</footer>
+</html>
