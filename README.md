@@ -2,6 +2,8 @@
 
 A fast-paced mental math game inspired by quantitative trading interviews like Optiver's "80 in 8" challenge. Test and improve your mental calculation speed with progressively challenging arithmetic problems.
 
+The website is live [here](https://pragspud.github.io/math-speed-challenge/).
+
 ## Overview
 
 Math Speed Challenge is a web-based application designed to help users improve their mental math skills through continuous practice. The game presents arithmetic problems and tracks the user's score and time, making it perfect for:
